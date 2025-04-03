@@ -16,9 +16,9 @@ const morsemap morselib[] = {
     {"-----", '0'}, {".----", '1'}, {"..---", '2'}, {"...--", '3'}, {"....-", '4'},
     {".....", '5'}, {"-....", '6'}, {"--...", '7'}, {"---..", '8'}, {"----.", '9'},
     {"/", ' '}, {"", ' '}
-};
+};//morse codes for alphabets and numbers which i picked from internet
 const int morselibsize = sizeof(morselib)/sizeof(morsemap);
-char morse_to_char(const char *morse) 
+char morse_to_char(const char *morse) //compares the given morse code with the morselib until it finds a match
 {
     for (int i=0;i<morselibsize;i++) 
     {
@@ -53,7 +53,7 @@ void decode_morse(char *morse_message)
             }
         }
     }
-    if (wordindex>0) {
+    if (wordindex>0) {//loop for any letters remaining
         word[wordindex]='\0';
         putchar(morse_to_char(word));
     }
