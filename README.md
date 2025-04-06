@@ -19,7 +19,7 @@ CHALLENGES FACED
   The first medium dose task was confusing as i wasn't able to understand it until the last.
   THe second medium dose was just Morse, so istudied about morse code and hoe do we convert it to English, writing the code logic took me some time and it took me the longest to complete due to constant errors.
   The third medium dose was a rather simple one after figuring out the pattern, however my code logic won't give an alphabet if 'A' is entered, so i don't know about that.
-  The Sanchiko MUchiko problem were rather long too, writing 3 filters and a variance function took  me some weet time, the problem i faced was selection of the 3 elements for taking out average and median as my code give 'n-2' result if 'n' noise data are entered, but nonetheless it works.
+  The Sanchiko MUchiko problem were rather long too, writing 3 filters and a variance function took  me some sweet time, the problem i faced was selection of the 3 elements for taking out average and median as my code give 'n-2' result if 'n' noise data are entered, but nonetheless it works.
   The 'GIMBAl LOCK' was a rather interesting question as it sparked my interest, i read about the Gimbal Lock first rather than solving the problem.
   i had to search conversions from Euler's to Quaternion, which were a bit confusing but had a pattern. I fixed them in a fucntion an solved it.
   HARD DOSE
@@ -36,4 +36,8 @@ RESOURCES USED
   For morse code dictionary, i just asked chatgpt to print it for me
   https://en.wikipedia.org/wiki/Conversion_between_quaternions_and_Euler_angles
   https://www.youtube.com/watch?v=DCZJUvTQV5Q
+  
+MAZEROVER LEARNINGS
+  I don't think i learnt anything significant
+  I learnt how  to work with VM's and how to some surface information of gazebo
   
